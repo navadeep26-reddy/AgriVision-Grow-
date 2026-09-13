@@ -1,39 +1,61 @@
-# AgriVision-Grow-
-AgriVision Grow is an AI-powered smart agriculture decision-support system designed to help farmers make informed decisions about crop cultivation and farm management. The system combines Machine Learning, Deep Learning, weather information, and agricultural data to provide practical recommendations..
-## 🌱 AgriVision Grow — Project Description
+# 🌱 AgriVision Grow
 
-**AgriVision Grow** is an **AI-powered smart agriculture decision-support system** designed to help farmers make informed decisions about crop cultivation and farm management. The system combines **Machine Learning, Deep Learning, weather information, and agricultural data** to provide practical recommendations.
+### AI-Powered Smart Agriculture Decision Support System
 
-The platform analyzes important factors such as **soil nutrients (N, P, K), soil pH, temperature, humidity, and rainfall** to recommend the most suitable crop for given conditions. It also provides **plant disease detection** by analyzing uploaded leaf images using deep-learning techniques. In addition, the system can provide **weather information, irrigation guidance, fertilizer recommendations, and agricultural insights**.
+> **Smarter Farming. Better Harvests.**
 
-The main objective of AgriVision Grow is to reduce guesswork in farming, improve resource utilization, support early disease identification, and help farmers achieve **better productivity and more sustainable agricultural practices**.
+AgriVision Grow is an AI-powered smart agriculture platform designed to help farmers and agricultural users make data-driven farming decisions.
 
-### Key Features
+The system combines **Machine Learning, Deep Learning, weather data, soil parameters, and image processing** to provide intelligent recommendations for crop selection, plant disease detection, irrigation, fertilizer management, and agricultural monitoring.
 
-* 🌾 **Crop Recommendation** — recommends suitable crops using ML.
-* 🍃 **Plant Disease Detection** — identifies possible diseases from leaf images.
-* 🌤️ **Weather Monitoring** — provides weather information for farming decisions.
-* 💧 **Smart Irrigation** — gives irrigation suggestions based on environmental conditions.
-* 🧪 **Fertilizer Recommendation** — analyzes NPK values and provides nutrient guidance.
-* 📊 **Interactive Dashboard** — displays agricultural information in an easy-to-understand interface.
-* 👤 **User Authentication** — supports registration and login.
-* 🗄️ **Prediction History** — stores previous recommendations and results.
+---
 
-### Technologies Used
+## 📸 Project Preview
 
-**Frontend/UI:** Streamlit, HTML, CSS, JavaScript animations
-**Programming:** Python
-**Machine Learning:** Scikit-learn
-**Deep Learning:** TensorFlow/Keras
-**Database:** SQLite
-**Data Processing:** Pandas, NumPy
-**Visualization:** Plotly/Matplotlib
-**API:** Weather API
+AgriVision Grow provides a modern agriculture-focused interface with an animated UI and farm-themed background.
 
-### Short Description for PPT
+### 🌾 Main Features
 
-> **AgriVision Grow is an AI-powered smart agriculture platform that uses machine learning, deep learning, soil parameters, weather data, and image analysis to provide crop recommendations, plant disease detection, irrigation guidance, and fertilizer suggestions. The system aims to help farmers make data-driven decisions, improve crop productivity, reduce resource wastage, and promote sustainable farming.**
+- 🌱 Crop Recommendation
+- 🍃 Plant Disease Detection
+- 🌤️ Weather Monitoring
+- 💧 Smart Irrigation
+- 🧪 Fertilizer Recommendation
+- 📊 Agricultural Dashboard
+- 🔐 User Login & Registration
+- 🗄️ Prediction History
+- 🤖 AI/ML-based Predictions
 
-### Tagline
+---
 
-> **🌱 AgriVision Grow — Smarter Farming. Better Harvests.**
+## 🎯 Objectives
+
+The main objectives of AgriVision Grow are:
+
+- Recommend suitable crops based on soil and environmental conditions.
+- Detect plant diseases using leaf images.
+- Provide weather information for agricultural planning.
+- Assist with irrigation management.
+- Provide fertilizer and nutrient recommendations.
+- Store and manage prediction history.
+- Reduce uncertainty in agricultural decision-making.
+- Promote smart and sustainable farming practices.
+
+---
+
+# 🚀 Features
+
+## 🌾 1. Crop Recommendation
+
+The Crop Recommendation module uses Machine Learning to recommend suitable crops based on agricultural parameters.
+
+### Input Parameters
+
+```text
+Nitrogen (N)
+Phosphorus (P)
+Potassium (K)
+Temperature
+Humidity
+Soil pH
+Rainfall
