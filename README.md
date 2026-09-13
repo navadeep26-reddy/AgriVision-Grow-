@@ -1,61 +1,20 @@
-# 🌱 AgriVision Grow
+# AgriVision Grow
 
-### AI-Powered Smart Agriculture Decision Support System
+AgriVision Grow is a Streamlit agriculture assistant for crop recommendation, plant disease detection, weather insights, fertilizer guidance, irrigation planning, and prediction history.
 
-> **Smarter Farming. Better Harvests.**
+## Run the app
 
-AgriVision Grow is an AI-powered smart agriculture platform designed to help farmers and agricultural users make data-driven farming decisions.
+```powershell
+cd "D:\agri sheid\AgriVision-Grow"
+streamlit run app.py
+```
 
-The system combines **Machine Learning, Deep Learning, weather data, soil parameters, and image processing** to provide intelligent recommendations for crop selection, plant disease detection, irrigation, fertilizer management, and agricultural monitoring.
+## Project data
 
----
+- `data/crop_data.csv` contains the crop recommendation examples.
+- `data/disease_data/` contains the training and validation class folders.
+- `models/train_crop_model.py` trains the crop recommendation model.
+- `models/train_disease_model.py` trains the MobileNetV2 disease model after images are added.
+- `database/agrivision.db` stores users and prediction history.
 
-## 📸 Project Preview
-
-AgriVision Grow provides a modern agriculture-focused interface with an animated UI and farm-themed background.
-
-### 🌾 Main Features
-
-- 🌱 Crop Recommendation
-- 🍃 Plant Disease Detection
-- 🌤️ Weather Monitoring
-- 💧 Smart Irrigation
-- 🧪 Fertilizer Recommendation
-- 📊 Agricultural Dashboard
-- 🔐 User Login & Registration
-- 🗄️ Prediction History
-- 🤖 AI/ML-based Predictions
-
----
-
-## 🎯 Objectives
-
-The main objectives of AgriVision Grow are:
-
-- Recommend suitable crops based on soil and environmental conditions.
-- Detect plant diseases using leaf images.
-- Provide weather information for agricultural planning.
-- Assist with irrigation management.
-- Provide fertilizer and nutrient recommendations.
-- Store and manage prediction history.
-- Reduce uncertainty in agricultural decision-making.
-- Promote smart and sustainable farming practices.
-
----
-
-# 🚀 Features
-
-## 🌾 1. Crop Recommendation
-
-The Crop Recommendation module uses Machine Learning to recommend suitable crops based on agricultural parameters.
-
-### Input Parameters
-
-```text
-Nitrogen (N)
-Phosphorus (P)
-Potassium (K)
-Temperature
-Humidity
-Soil pH
-Rainfall
+The disease model artifact is generated only after the disease dataset is populated and the TensorFlow training script completes.
